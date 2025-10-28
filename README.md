@@ -67,17 +67,14 @@ drawable/	存放实验所用图片资源（tiger.jpg、cat.png、dog.jpeg 等）
 AndroidManifest.xml	声明主活动及应用权限等信息
 
 四、实验结果截图
-
-自定义列表界面显示效果
-
 点击列表项的 Toast 与通知显示效果
-
+(https://github.com/Ccx505/Experiment3/blob/main/屏幕截图%202025-10-28%20183845.png)
 自定义对话框展示效果
-
+(https://github.com/Ccx505/Experiment3/blob/main/屏幕截图%202025-10-28%20183856.png)
 菜单操作（字体大小与颜色）效果
-
+(https://github.com/Ccx505/Experiment3/blob/main/屏幕截图%202025-10-28%20183914.png)
 上下文菜单（长按列表项）显示效果
-
+(https://github.com/Ccx505/Experiment3/blob/main/屏幕截图%202025-10-28%20183926.png)
 
 五、实验总结
 
