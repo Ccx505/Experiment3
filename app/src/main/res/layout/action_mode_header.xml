@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionModeHeader"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#2196F3"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:visibility="gone">
+
+    <!-- 白色对勾图标 -->
+    <ImageView
+        android:id="@+id/checkIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/checkbox_on_background"
+        app:tint="#FFFFFF"
+        android:layout_marginEnd="12dp" />
+
+    <!-- 选中数量文字 -->
+    <TextView
+        android:id="@+id/selectedCountText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0 selected"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- 垃圾桶删除图标 -->
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_delete"
+        app:tint="#FFFFFF"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="删除" />
+
+</LinearLayout>

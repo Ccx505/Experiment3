@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- 三个紫色按钮 - 与图片完全一致 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/goToMenuTestButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进入菜单测试页面"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/goToActionModeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进入ActionMode演示"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/showDialogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="显示登录对话框"
+            android:background="@drawable/button_background"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- 动物列表 - 与图片完全一致 -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#E0E0E0"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
